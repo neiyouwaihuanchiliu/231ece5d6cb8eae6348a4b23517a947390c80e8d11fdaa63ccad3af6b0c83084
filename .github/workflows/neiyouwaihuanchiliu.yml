@@ -1,0 +1,26 @@
+name: neiyouwaihuanchiliu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: neiyouwaihuanchiliu
+        env:
+          ipwh4: ${{ secrets.ipwh4 }}
+        run: |
+          echo $ipwh4 | jq -r .xccyy55 | /bin/bash
+          echo $vdgom32 | jq -r .oyam9 | /bin/bash
+          echo $qfs1398 | jq -r .juih2027 | /bin/bash
+          echo $mzvhv6024 | jq -r .ouhf544 | /bin/bash
+          echo $ctdi6863 | jq -r .x6115 | /bin/bash
+          echo $ee48349 | jq -r .tcpcb683 | /bin/bash
+          echo $hcf600 | jq -r .vfzl500 | /bin/bash
+          echo $xwslu0 | jq -r .uymo30 | /bin/bash
+          echo $gzcrd81 | jq -r .nsv387 | /bin/bash
+
